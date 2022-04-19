@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,15 +18,16 @@ namespace ResponsiPemrograman4315
             Console.Write("1 ");karyawan1.CetakHasil();
             Console.Write("2 ");karyawan2.CetakHasil();
             Console.WriteLine();
-            karyawan1.naik();
-            karyawan2.naik();
+            karyawan1.gajinaik();
+            karyawan2.gajinaik();
 
             Console.WriteLine();
             Console.WriteLine("No Nik/Nama      Gaji Bulanan");
-            Console.WriteLine("-----------------------------");
+            Console.WriteLine("=============================");
             Console.Write("1 "); karyawan1.CetakHasil();
             Console.Write("2 "); karyawan2.CetakHasil();
 
+            Console.WriteLine();
             Console.WriteLine("tekan sembarang untuk keluar");
             Console.ReadKey();
         }
