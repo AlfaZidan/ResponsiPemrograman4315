@@ -11,12 +11,12 @@ namespace ResponsiPemrograman4315
         static void Main(string[] args)
         {
             Karyawan karyawan1 = new Karyawan("190302123", "Paijo", 3000000);
-            Karyawan karyawan2 = new Karyawan("190302123", "Paijo", 2000000);
+            Karyawan karyawan2 = new Karyawan("190302124", "Jono", 2000000);
 
             Console.WriteLine("No Nik/Nama      Gaji Bulanan");
             Console.WriteLine("=============================");
             Console.Write("1 ");karyawan1.CetakHasil();
-            Console.Write("2 ");karyawan1.CetakHasil();
+            Console.Write("2 ");karyawan2.CetakHasil();
             Console.WriteLine();
             karyawan1.naik();
             karyawan2.naik();
