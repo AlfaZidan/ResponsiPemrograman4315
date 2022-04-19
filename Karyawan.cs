@@ -33,7 +33,7 @@ namespace ResponsiPemrograman4315
         {
             this.nama = nama;
             this.nik = nik;
-            this.gajibulanan = gajibulanan < 0 ? 0 : gajibulanan
+            this.gajibulanan = gajibulanan < 0 ? 0 : gajibulanan;
         }
 
         public void CetakHasil()
